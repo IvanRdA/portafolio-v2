@@ -24,7 +24,7 @@ export default function TechsPreview() {
               {t("Main.StackTitle")}
             </h3>
 
-            <div className="w-[50%] flex flex-col md:flex-row row-span-4 justify-center items-center gap-2 mt-4 p-2 text-xl">
+            <div className="w-[100%] md:w-[50%] flex flex-col md:flex-row row-span-4 justify-center items-center gap-2 mt-4 p-2 text-xl">
               <StackList stack={mainStackDictionary} />
             </div>
           </div>
@@ -34,7 +34,7 @@ export default function TechsPreview() {
                 {t("Main.OtherStackTitle")}
               </h3>
             </strong>
-            <div className="w-[50%] flex flex-col md:flex-row justify-center items-center gap-2 mt-4 p-2 text-xl">
+            <div className="w-[100%] md:w-[50%] flex flex-col md:flex-row justify-center items-center gap-2 mt-4 p-2 text-xl">
               <StackList stack={OtherTechsDictionary} />
             </div>
           </div>

@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 export default function MainPresentation() {
   const { t } = useTranslation();
   return (
-    <article className="p-2 m-1 h-[100%] w-[100%]">
+    <article className="p-1 md:p-2 m-1 h-[100%] w-[100%]">
       <div className="w-[100%] mt-4 flex flex-col justify-center items-center">
         <h1 className="font-bold text-5xl">Iván Rodríguez</h1>
         <h2 className="text-2xl">{t("Main.Job")}</h2>

@@ -10,8 +10,8 @@ export default function ContactMainSection() {
       <h2 className="font-interBold text-2xl text-center mt-8">
         {t("Contact.Title")}
       </h2>
-      <article className="h-[90%] flex flex-col justify-center items-start text-lg">
-        <span className="flex flex-row justify-center items-center">
+      <article className="h-[100%] w-[100%] md:w-[50%] flex flex-col justify-center items-center md:items-start text-lg">
+        <span className="flex flex-col md:flex-row justify-center items-center">
           <Image
             src="/icons/email.svg"
             height={40}
@@ -25,7 +25,7 @@ export default function ContactMainSection() {
           </a>
         </span>
 
-        <span className="flex flex-row  justify-center items-center">
+        <span className="flex flex-col md:flex-row  justify-center items-center">
           <Image
             src="/icons/linkedin.svg"
             height={40}
@@ -42,7 +42,7 @@ export default function ContactMainSection() {
           </a>
         </span>
 
-        <span className="flex flex-row  justify-center items-center">
+        <span className="flex flex-col md:flex-row  justify-center items-center">
           <Image
             src="/icons/github.svg"
             height={40}
@@ -56,7 +56,7 @@ export default function ContactMainSection() {
           </a>
         </span>
 
-        <span className="flex flex-row  justify-center items-center">
+        <span className="flex flex-col md:flex-row  justify-center items-center">
           <Image
             src="/icons/direction.svg"
             height={40}

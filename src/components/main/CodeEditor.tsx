@@ -35,7 +35,7 @@ export default function CodeEditor() {
   };
 
   return (
-    <div className="w-[80%] h-[100%] flex flex-col justify-center items-center text-justify mt-4">
+    <div className="w-[100%] md:w-[80%] h-[100%] flex flex-col justify-center items-center text-justify mt-4">
       <div className="flex flex-col md:flex-row w-[100%] h-fit justify-center items-center">
         <NextPrevButton handler={handlePrev} action="prev" />
         <h3 className="text-blue-chill-800 mt-4 font-bold text-lg p-2">

@@ -17,9 +17,9 @@ const config: Config = {
 
       },
       fontFamily: {
-        light: ["interLight", "Open Sans"],
-        bold: ["interBold", "Open Sans"],
-        regular: ["inter", "Open Sans"],
+        light: ["robotoLight", "Open Sans"],
+        bold: ["robotoBold", "Open Sans"],
+        regular: ["roboto", "Open Sans"],
 
       },
     },

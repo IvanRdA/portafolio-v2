@@ -47,8 +47,8 @@ export default function ProjectDetailed(props: {
 
         <h3 className="text-lg">{t(project.state)}</h3>
         <div className="flex flex-col justify-center items-center p-2 h-[100%] w-[100%] gap-2">
-          <div className="flex flex-row justify-start items-center w-[100%] h-[50%]">
-            <div className="flex flex-col justify-start items-center text-justify w-[50%] h-[100%] m-2">
+          <div className="flex flex-col md:flex-row justify-start items-center w-[100%] h-[50%]">
+            <div className="flex flex-col justify-start items-center text-justify w-[100%] md:w-[50%] h-[100%] m-2">
               <i>
                 <strong>
                   <h4 className="text-lg">{t("Projects.ProblemTitle")}</h4>
@@ -56,7 +56,7 @@ export default function ProjectDetailed(props: {
                 <p className="font-light text-justify">{t(project.problem)}</p>
               </i>
             </div>
-            <div className="flex flex-col justify-start items-center text-justify w-[50%] h-[100%] m-2">
+            <div className="flex flex-col justify-start items-center text-justify w-[100%] md:w-[50%] h-[100%] m-2">
               <strong>
                 <i>
                   <h4 className="text-lg mt-2">
@@ -133,14 +133,14 @@ export default function ProjectDetailed(props: {
 
           {project.url !== "" && (
             <p>
-              URL:
+              URL:{" "}
               <a href={project.url} target="_blank">
                 {project.url}
               </a>
             </p>
           )}
           <h3 className="mt-4">{t("Projects.TecnosTitle")}</h3>
-          <span className="flex flex-row gap-2 items-center">
+          <span className="grid grid-flow-row grid-cols-2 md:grid-cols-5 gap-2 items-center text-center">
             {project.tecnos.map((tecno, idx) => {
               return (
                 <p className="bg-slate-200 text-black rounded-lg p-2" key={idx}>
@@ -151,7 +151,7 @@ export default function ProjectDetailed(props: {
           </span>
 
           <h3 className="mt-2">{t("Projects.TagsTitle")}</h3>
-          <span className="flex flex-row gap-2 mt-2 items-center">
+          <span className="grid grid-flow-row grid-cols-2 md:grid-cols-5 gap-2 items-center text-center">
             {project.tags.map((tag, idx) => {
               return (
                 <p className="bg-slate-200 text-black rounded-lg p-2" key={idx}>

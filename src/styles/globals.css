@@ -33,18 +33,18 @@ body {
 }
 
 @font-face {
-  font-family: "interLight";
-  src: url("../../public/fonts/Inter-Light.ttf");
+  font-family: "robotoLight";
+  src: url("../../public/fonts/RobotoMono-Light.ttf");
   }
 
 @font-face {
-  font-family: "inter";
-  src: url("../../public/fonts/Inter-Medium.ttf");
+  font-family: "roboto";
+  src: url("../../public/fonts/RobotoMono-Regular.ttf");
 }
   
 @font-face {
-  font-family: "interBold";
-  src: url("../../public/fonts/Inter-Bold.ttf");
+  font-family: "robotoBold";
+  src: url("../../public/fonts/RobotoMono-Bold.ttf");
 }
 
 .fadeIn {
