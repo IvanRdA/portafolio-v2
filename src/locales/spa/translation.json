@@ -1,0 +1,294 @@
+{
+    "Navbar": {
+        "FlagTitle": {
+            "spa": "Cambiar a Inglés",
+            "eng": "Switch to Spanish"
+        }
+    },
+    "Main": {
+        "Job": "DESARROLLADOR FULLSTACK",
+        "Picture": "Descargar CV",
+        "p1": "Soy un programador autodidacta con +5 años de experiencia como gerente de tienda al que le encanta la resolución de problemas.",
+        "p2": "Trabajando como gerente he aprendido a trabajar con datos y la importancia que tiene para los negocios poder tener control sobre estos datos.",
+        "p3": "Combinando eso con mi pasion por las nuevas tecnologías, la programación y resolución de problemas y mi bagaje, en 2020 elegí empezar a estudiar sobre el entorno de JavaScript por mi cuenta.",
+        "p4": "Actualmente me encuentro buscando mi primer empleo como desarrollador fullstack en el sector.",
+        "Prev": "Anterior",
+        "Next": "Siguiente",
+        "Preview": "Vista previa",
+        "StackTitle": "Stack principal",
+        "OtherStackTitle": "Otras tecnologías principales",
+        "Database": "Base de datos",
+        "Frontend": "Cliente",
+        "Backend": "Servidor",
+        "VCS": "Sístema de control de versiones",
+        "All": "General",
+        "M": "MongoDB es un entorno de base de datos que permite trabajar con modelos no relacionales, escritos en formato JSON para trabajar con la información. En concreto, yo trabajo con mongoose en entornos de ExpressJS o NodeJS para conectar con la base de datos principal, esté donde esté.",
+        "E": "ExpressJS es un framework de NodeJS que facilita muchísimo crear un servidor desde 0. Tiene una forma genial de trabajar con las rutas y los endpoints de APIs y es lo suficientemente rápido para considerarlo siempre.",
+        "R": "React es una librería frontend de JavaScript creada por Facebook. Permite trabajar con aplicaciones de página única (SPA por sus siglas en inglés) gracias a HTML vitaminado basado en creación de componentes conocido como formato JSX. Tiene una comunidad inmensa que da soporte contínuo a la librería y fué mi elección contra otros frameworks como Angular, Svelte o Vue.",
+        "N": "NodeJS fué creado para trabajar con JavaScript en el lado del servidor, permitiendo crear lógica y operaciones como ruteos, servir, escribir y leer archivos y cualquier clases de proceso del lado servidor. Es los cimientos de todas las tecnologías que trabajan con JS en el lado servidor, el 100% de éstas tienen Node en su núcleo de bajo nivel.",
+        "TS": "TypeScript es un superset para JavaScript desarrollado por Microsoft que permite trabajar con tipado estático para luego inferir esos tipos y restringir el flujo de datos de la aplicación que estés desarollando. Extremadamente útil para proyectos grandes o que involucren a equipos de desarrollo.",
+        "NJS": "NextJS es un framework para React que implementa tonalidad de funciones integradas como ruteo, componentes de imagen y, quizás lo más importante, renderizado de componentes del lado servidor por defecto. También facilita muchísimo integrar Tailwind y TypeScript en sus proyectos.",
+        "TWD": "TailwindCSS es un framework para CSS, al igual que Bootstrap implementa nombres de clases con reglas CSS ya predefinidas y permite extender o editar esas clases. Quizás un poco más pesado que Bootstrap en cuanto a clases, pero prefiero su método de trabajo y fué la elección que tomé.",
+        "SQL": "MySQL es un motor de bases de datos relacionales que permite con Lenguaje de Consultas Estructurado (SQL por sus siglas en inglés) con tablas, uniones, consultas y todas las operaciones de las bases de datos relacionales.",
+        "GIT": "Git es un Sístema de Control de Versiones (VCS por sus siglas en inglés), esto significa que puedes hacer 'push' de tu trabajo a la rama actual o a una nueva cada vez que consideres o consigas algún avance en el desarrollo. De esta forma puedes volver a versiones de tu código que funcionaban y empezar desde ahí. Integrado con GitHub esta herramienta facilita enormemente la vida.",
+        "DTST": "Las estructuras de datos son el pilar base de la programación. Saber con qué estructura de datos trabajar según los datos que estás recibiendo definirá el éxito o fracaso del proyecto. Cada estructura de datos nos proporciona varias operaciones, y cada operación consume cierta cantidad de tiempo, así que puedes imaginar lo rápido que escala, no?",
+        "ALG": "Me gusta decir que los algoritmos son funciones que resuelven un problema general de una manera específica. Los algoritmos resuelven un rango de problemas que arraiguen en el mismo tipo, así se pueden aplicar en otros entornos y resultarán en la misma escala consumo de tiempo y espacio.",
+        "STY": "La Seguridad digital se ha convertido en algo indispensable cuando se trabaja con proyectos de entorno real. Validación de campos en ambos lados del proceso, encapsulación, procesos de autorización y autenticación en cada petición, políticas CORS en servidores y un largo etcétera.",
+        "Snippets": {
+            "SnippetsTitle": "Algunos retales de mi código",
+            "TechsTitle": "Algunas tecnologías en mi arsenal",
+            "why": "Problema",
+            "solution": "Mi solución",
+            "complexity": "Complejidad",
+            "platform": "Plataforma",
+            "types": "Tipo",
+            "small": "El editor de código está en modo ReadOnly por finalidad de mostrar el código.",
+            "0": {
+                "title": "Buscar un rango",
+                "description": "Dada una lista de enteros y un entero objetivo, retorna una lista que represente el rango de índices en la lista con valor igual a objetivo.",
+                "type": "Algoritmos",
+                "solution": "Recorrer la lista de izquierda a derecha y viceversa en el mismo bucle, crear una variable con valor [-1, -1] para retornar en caso de que no exista el número objetivo en la lista. En cada iteración verificamos si el la variable de rango en los índices i y j son -1, si lo son verificamos si son iguales al objetivo. Cuando ningún índice de la variable range es -1 retornamos la solución."
+            },
+            "1": {
+                "title": "Asignación de tareas",
+                "description": "Dado un entero que representa un número de trabajadores y una lista de enteros que representa la duración de tareas a realizar, retorna los índices de la lista de tareas para que la duración máxima de las combinaciones sea la más óptima. Cada trabajador puede realizar dos tareas.",
+                "type": "Algoritmos",
+                "solution": "Copiar la lista de tareas y ordenarla en orden ascendente. Una vez tenemos la estructura de datos ordenada, podemos simplemente emparejar la primera disponible (mínima duración) con la máxima disponible (máxima disponible). Una vez acabado el bucle retornamos la matriz."
+            },
+            "2": {
+                "title": "Suma de dos números",
+                "description": "Dada una lista ordenada de enteros y un número objetivo, escribe una función que retorne una lista con los dos valores que sumen el objetivo o una lista vacía si no existe ninguna combinación.",
+                "type": "Algoritmos",
+                "solution": "Como la lista está ordenada podemos crear un pointer al inicio y otro al final de la lista, sumamos los pointers, si son iguales al objetivo devolvemos los valores, si la suma es mayor al objetivo movemos el pointer del final un paso a la izquiera, si es menor el pointer inicial uno a la derecha."
+            },
+            "3": {
+                "title": "Comprobador de palíndromos",
+                "description": "Dada una cadena de texto retorna true si es palíndromo y false si no.",
+                "type": "Algoritmos",
+                "solution": "Crea un pointer al inicio y al final de la cadena de texto mediante el método char at, si los valores son diferentes retorna false, si los pointers coinciden en valor retorna true."
+            },
+            "4": {
+                "title": "Primer valor duplicado",
+                "description": "Dada una lista de números enteros, retorna el primer valor que esté duplicado.",
+                "type": "Algoritmos",
+                "solution": "Crea un diccionario vacío e itera el array. En cada índice comprueba si el valor está registrado como clave en el diccionario. Si lo está, retorna el valor, si no, regístralo como clave con cualquier valor, en mi caso true."
+            },
+            "5": {
+                "title": "Creación de estrellas procedural",
+                "description": "Dadas ciertas clases y restricciones, crea un algoritmo que devuelva una lista de estrellas perteneciente a ese sistema solar.",
+                "type": "Algoritmos",
+                "solution": "Lanza un dado para determinar el número máximo de ese sístema, luego filtra la lista por tipo de estrella y restríngela para que cumpla las restricciones. Si pasa el test ordena la lista por número máximo y córtala donde el sístema necesite. Devuelve la lista ordenada por masa y con la propiedad main definida."
+            }
+        }
+    },
+    "Returner": {
+        "Message": "Volver"
+    },
+    "About": {
+        "Title": "Más sobre mi",
+        "DescriptionTitle": "Conóceme",
+        "Description": {
+            "p1": "Tranquilo y curioso a partes iguales. Me encanta aprender constantemente y estar retándome y superándome a mi mismo y en la programación encontré ese espíritu de mejora contínua desde el primer día.",
+            "p2": "Amo el análisis y reconocimiento de patrones y por suerte pude desarrollarlo bastante durante mis años como gerente, consiguiendo experiencia, sobretodo en criterios de análisis de datos y cómo trabajar con ellos.",
+            "p3": "En mis ratos libres suelo jugar al ajedrez, resolver algún problema de estructuras de datos de AlgoExpert, hacer algo de ejercicio o consumir cine y series."
+        },
+        "HobbiesTitle": "Aficiones",
+        "Chess": "Ajedrez",
+        "Exercise": "Hacer ejercicio",
+        "Movies": "Ver cine",
+        "Reading": "Leer",
+        "Photography": "Fotografía",
+        "StatsTitle": "Algunas estadísticas"
+    },
+    "Skills": {
+        "Title": "Mis habilidades",
+        "SoftTitle": "Habilidades blandas",
+        "TechnicalTitle": "Habilidades técnicas",
+        "FrontendTitle": "Cliente",
+        "BackendTitle": "Servidor",
+        "DatabaseTitle": "Bases de datos",
+        "GeneralTitle": "General",
+        "FullstackTitle": "Stack completo",
+        "Skillset": {
+            "soft": {
+                "0": 
+                    {
+                        "name": "Comunicación efectiva",
+                        "description": "Comunicarse de manera efectiva es esencial cuando desarrollas con otras personas o en equipos grandes"
+                    },
+                "1": 
+                {
+                    "name": "Trabajo en equipo",
+                    "description": "Siempre preferiré trabajar en equipo que solo. Por supuesto que puedo, pero dos cerebros siempre son mejores que uno"
+                },
+                "2": 
+                {
+                    "name": "Resolución de problemas",
+                    "description": "Me encantan los desafíos e intento comprender los fundamentos del problema incluso antes de ponerme a pensar en cómo resolverlo"
+                },
+                "3": 
+                {
+                    "name": "Adaptabilidad",
+                    "description": "Rápida adaptabilidad a nuevas tecnologías y avances en el sector"
+                },
+                "4": 
+                {
+                    "name": "Aprendizaje contínuo y autónomo",
+                    "description": "Como desarrollador autodidacta, he tenido que aprender a obtener conocimiento por mi cuenta"
+                },
+                "5": 
+                {
+                    "name": "Pensamiento crítico",
+                    "description": "A veces tenemos que tomar decisiones que tendrán gran impacto en el proyecto"
+                }
+            },
+            "technical": {
+                "0": 
+                 
+                {
+                    "name": "Desarrollo de lógica de servidor y APIs",
+                    "description": "Con NodeJS nativo o con ExpressJS, también algo de PHP"
+                },
+                "1": 
+                 
+                {
+                    "name": "Desarrollo de aplicaiones cliente",
+                    "description": "Con React como estrella. También con vanila JavaScript, TypeScript y jQuery"
+                },
+                "2": 
+                 
+                {
+                    "name": "Bases de datos relacionales y no relacionales",
+                    "description": "Con MySQL y MongoDB como los maestros, pero también conozco algunas otras"
+                },
+                "3": 
+                 
+                {
+                    "name": "Control de versiones",
+                    "description": "Git y GitHub. Trabajar con repositorios y ramas"
+                },
+                "4": 
+                 
+                {
+                    "name": "Desarrollo de aplicaciones monolíticas y SPAs",
+                    "description": "Desarrollo de aplicaciones monolíticas de servidor y cliente y SPAs con React"
+                },
+                "5": 
+                 
+                {
+                    "name": "Algoritmos y análisis de complejidad",
+                    "description": "Notación 'Big O' y algunos algoritmos famosos"
+                }
+            }
+        }
+    },
+    "Projects": {
+        "Title": "Mis proyectos",
+        "ByTypeLabel": "Por tipo: ",
+        "ByTagLabel": "Por etiqueta: ",
+        "AllTitle": "Todos",
+        "NoItemsFound": "No se encuentran proyectos con estos criterios",
+        "GenericAlt": "Imagen del proyecto",
+        "ProblemTitle": "El problema",
+        "SolutionTitle": "La solución",
+        "ViewPictures": "Ver fotos",
+        "ViewCode": "Ver código",
+        "NextButton": "Siguiente",
+        "TagsTitle": "Etiquetas",
+        "TecnosTitle": "Tecnologías",
+        "ProjectList": {
+            "0": {
+                "title": "Manejador de lógica de negocio",
+                "problem": "Una mediana a gran empresa necesita manejar toda la información de sus empleados, sus turnos, vacaciones y registros de horas extra. En un futuro necesitarán escalar la plataforma para manejar otro tipo de datos y procesos de negocio.",
+                "solution": "Una plataforma web en formato SPA con React en el lado cliente y Express y MongoDB en el servidor y para la creación y encapsulación de la API. La app será modular para cubrir las necesidades de escalarla a futuro y será totalmente responsiva. También incluirá una sección con gráficos para la visualización de la información.",
+                "codes": {
+                    "0": {
+                        "explanation": "Modelo de mongoose para gestión de empleados en base de datos.",
+                        "name": "Modelo Empleados para MongoDB"
+                    },
+                    "1": {
+                        "explanation": "Ruta de inicio de sesión de la plataforma. El retal incluye el archivo de ruta y el controlador.",
+                        "name": "Ruta y controlador de inicio de sesión"
+                    },
+                    "2": {
+                        "explanation": "Función de conexión a base de datos con soporte de función de reintento.",
+                        "name": "Conexión a base de datos con soporte de reintento"
+                    },
+                    "3": {
+                        "explanation": "Componente de React para manejar las vacaciones de los empleados, por año.",
+                        "name": "Componente gestor de vacaciones"
+                    }
+                }
+            },
+            "1": {
+                "title": "Creación de galaxias procedural",
+                "problem": "Para poder crear el mapa de un juego, nos dicen que tenemos que crear una función procedural que genere una galaxia con toda la información de sus entidades que cumplan una lista de requisitos que recibimos.",
+                "solution": "Crear diccionarios para todos los requisitos para cada tipo de objeto, después, definimos e instanciamos las clases acomodando sus métodos y propiedas para que sigan los diccionarios de requisitos. Una vez tenemos la implementación de las clases, creamos las funciones de cada procedural y registrándolos en la base de datos a medida que el algoritmo se ejecuta.",
+                "codes": {
+                    "0": {
+                        "explanation": "La definición de la clase estrella. Esta clase encapsulará todas las instancias de las estrellas que se generen.",
+                        "name": "Definición de clase Estrella"
+                    },
+                    "1": {
+                        "explanation": "Esta es la ruta que maneja la creación de la galaxia en si. Como puede verse, basta con indicar el nombre de la galaxia y el número de sistemas estelares que desea generar.",
+                        "name": "Galaxy store API route"
+                    },
+                    "2": {
+                        "explanation": "La escena de la galaxia en el lado del cliente, implementada con ThreeJS para una inmersión 3D.",
+                        "name": "Componente de escena de Galaxia"
+                    }
+                }
+            },
+            "2": {
+                "title": "Portafolio web v1.0",
+                "problem": "Ser un desarrollador autodidacta implica tener que enseñar lo que he aprendido más que gente que tenga estudios oficiales.",
+                "solution": "Separarme del camino habitual en cuanto a proyectos de portafolio, empezando dos grandes ideas. Cuando he alcanzado varios puntos clave en los proyectos que, bajo mi punta de vista, demuestran que puedo trabajar de forma profesional como desarrollador, he creado un portafolio web.",
+                "codes": {
+                    "0": {
+                        "explanation": "Componente de la sección sobre mi creado con React en NextJS. El componente itera sobre el diccionario de hobbies y enseña de forma dinámica cada uno vía otro componente y sus props.",
+                        "name": "Componente principal sección Sobre mi"
+                    },
+                    "1": {
+                        "explanation": "Componente de navegación que maneja el estado de la bandera y el lenguaje, así como el componente que renderiza la página.",
+                        "name": "Componente de navegación"
+                    },
+                    "2": {
+                        "explanation": "Contiene los componentes StackList y SingleTech, que muestran la lista de tecnologías del stack o la descripción de la tecnología donde se hace click.",
+                        "name": "Componente Stack"
+                    }
+                }
+            }
+        },
+        "States": {
+            "finished": "Acabado",
+            "inProgress": "En proceso",
+            "design": "En diseño"
+        },
+        "ProjectTags": {
+            "procedurals": "Procedurales",
+            "recursivity": "Recursividad",
+            "SPA": "SPA",
+            "algorithms": "Algoritmos",
+            "security": "Seguridad",
+            "API": "API",
+            "state handleling": "Manejo de estado",
+            "design": "Diseño",
+            "3D": "3D",
+            "dependencies": "Dependencias",
+            "testing": "Testeo",
+            "database": "Base de datos",
+            "CRUD": "CRUD",
+            "CORS": "CORS",
+            "business": "Negocio"
+        }
+    },
+    "Contact": {
+        "Title": "Contáctame",
+        "Direction": "Barcelona, España",
+        "Email": "Correo electrónico",
+        "Linkedin": "LinkedIn",
+        "Github": "GitHub",
+        "DirectionTitle": "Dirección",
+        "RepositoryTitle": "Repositorio"
+    }
+}

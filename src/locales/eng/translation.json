@@ -1,0 +1,294 @@
+{
+    "Navbar": {
+        "FlagTitle": {
+            "spa": "Cambiar a Inglés",
+            "eng": "Switch to Spanish"
+        }
+    },
+    "Main": {
+        "Job": "FULLSTACK DEVELOPER",
+        "Picture": "Download resume",
+        "p1": "I'm a Self-taught Fullstack Developer with +5 years experience as store manager that loves problem solving.",
+        "p2": "Working as manager I've learned to work with data and the importance for the businesses to have control over it.",
+        "p3": "Combining this with my passion of new technologies, coding and problem solving and my baggage, in 2020 I've chose to start learning the JavaScript environment by myself.",
+        "p4": "Now I'm looking for my first job as fullstack developer in the sector.",
+        "Prev": "Previous",
+        "Next": "Next",
+        "Preview": "Preview",
+        "StackTitle": "Main stack",
+        "OtherStackTitle": "Other main technologies",
+        "Database": "Database motor",
+        "Frontend": "Frontend",
+        "Backend": "Backend",
+        "VCS": "Version control system",
+        "All": "Global",
+        "M": "MongoDB is a database environment that allows to work with non-relational models, writting JSON objects to store the information. I work with mongoose dependency on ExpressJS and NodeJS environments to connect with the main database wherever it is.",
+        "E": "ExpressJS is a NodeJS framework that make so easy to create a server from scratch. Has a great way to work with API endpoints and routes and is fast enough to go all the way with him.",
+        "R": "React is a frontend JavaScript library created by Facebook. Allows to work with Single Page Application (SPA) due to a vitamined HTML based on components construction that's called JSX format. Has an inmense community that supports the library with a lot of frameworks, components and content and was my choice against other frameworks like Angular, Svelte or Vue.",
+        "N": "NodeJS was created to work with JavaScript but in server environments, allowing to create logic and operations like routing, serving, writting and reading files and all kind of processes on servers. Is the foundation for all the technologies that works with JS on server environments, 100% of it has Node in his low level core.",
+        "TS": "TypeScript is a superset for JavaScript developed by Microsoft that allow static typing variables and then infer those types to restrict the data flow of the application that You're developing. So useful for large or collaborative projects.",
+        "NJS": "NextJS is a framework for React that implements many functions to native React library as routing, image components and, maybe the most important, server side component rendering by default. Also, makes easy to integrate Tailwind and TypeScript in his projects.",
+        "TWD": "TailwindCSS is a framework for CSS. As Bootsrap, implements class names with predefined CSS rules, and allow to extend or edit those classes. Maybe a little bit more class overweighted than Bootstrap, but I prefer his way to work and was my choice.",
+        "SQL": "MySQL is a relational database motor that allows to work with Structured Query Language databases with tables, joins, queries and all the options of a relational database model.",
+        "GIT": "Git is a Version Control System, that means that You can 'push' your work whenever you want to the actual branch of work or to a new one. This way You can go back to older versions of your code that worked and restart from that point. In integration with GitHub, this tool make your life so easy.",
+        "DTST": "Data Structures are the foundation of coding. To know with which structure You will work with the data that You're receiving will define the success or failure of the project. Each data structure has many operations and each one of this operations implies a certain amount of time, You can imagine how quick that scales, right?",
+        "ALG": "I'd like to say that Algorithms are functions that solve general problems in a specified way. Algorithms solve a range of problem of the same kind, so can be applied in other environments and will result in same time and space consumption scale.",
+        "STY": "Digital Security has become a must consider when You work with real-environment projects. Fields validations on both sides of the operation, encapsulation, authorization and authentication processes in any request, CORS policy on servers and a large etcetera.",
+        "Snippets": {
+            "SnippetsTitle": "Some snippets of my code",
+            "TechsTitle": "Some techs on my arsenal",
+            "why": "Problem",
+            "solution": "My solution",
+            "complexity": "Complexity",
+            "platform": "Platform",
+            "types": "Type",
+            "small": "Code editor is in ReadOnly mode just for showcase purposes.",
+            "0": {
+                "title": "Search for a range",
+                "description": "Given a list of integers and a target integer, return a new array that represents the range of indices on the list with value equals to target.",
+                "type": "Algorithms",
+                "solution": "Traverse the array from L to R and from R to L in the same loop, instance a variable with [-1, -1] by default for the edge case where any index matches target. In every iteration, check if the range variable at index i and j are -1, if so check if they match to target."
+            },
+            "1": {
+                "title": "Tasks assignment",
+                "description": "Given an integer that represent a number of workers and a list of integers that represents tasks duration, write a function that returns indices in the tasks list of the most optimal task assignment knowing that each worker can make 2 tasks.",
+                "type": "Algorithms",
+                "solution": "Copy the tasks list and then sorted by ascending order. Once data structure is sorted, we can just pair the first one available with the last one available, once the loop is finished, we return the final matrix."
+            },
+            "2": {
+                "title": "Two number sum",
+                "description": "Given a sorted integers list and a target value, write a function that returns the two values that sums the target, if any return an empty array.",
+                "type": "Algorithms",
+                "solution": "As the list is sorted, we can create a start and end pointers to beginning and ending of the list, if start + end = target return the values, if bigger, move the end pointer to left, if smaller move the start pointer to right."
+            },
+            "3": {
+                "title": "Palindrome checker",
+                "description": "Given a string return true if it's palindrome and false if it's not.",
+                "type": "Algorithms",
+                "solution": "Create a pointer to start and to end of the string with char at method, if the characters are different return false, if the pointers meet return true."
+            },
+            "4": {
+                "title": "First duplicate value",
+                "description": "Given an integer list return the first duplicate value.",
+                "type": "Algorithms",
+                "solution": "Create an empty dictionary, then iterate the array checking if the value at the current index are a key of the dictionary. If so, return the value, if not create a new key with the value of the index."
+            },
+            "5": {
+                "title": "Star creation procedural process",
+                "description": "Given some classes and constraints, create an algorithm that returns an array of Stars that follows the constraints.",
+                "type": "Algorithms",
+                "solution": "Throw a dice to determinate the number of stars, then filter the array by star type and restrict them by constraints. If that test is succeded sort the array by star max number and cut it where the system needs. Return the array sorted by mass and with main prop defined."
+            }
+        }
+    },
+    "Returner": {
+        "Message": "Go back"
+    },
+    "About": {
+        "Title": "More about me",
+        "DescriptionTitle": "Know me",
+        "Description": {
+            "p1": "Equally calm and curious. I love constantly learning and challenging myself, and in programming, I found that spirit of continuous improvement from day one.",
+            "p2": "I enjoy analyzing and recognizing patterns, and fortunately, I was able to develop this skill considerably during my years as a manager, gaining experience, especially in data analysis criteria and how to work with them.",
+            "p3": "In my free time, I often play chess, solve some data structure problems from AlgoExpert, do some exercise, or enjoy watching movies and series."
+            },
+        "HobbiesTitle": "Hobbies",
+        "Chess": "Chess",
+        "Exercise": "Do exercise",
+        "Movies": "Watch movies",
+        "Reading": "Reading",
+        "Photography": "Photography",
+        "StatsTitle": "Some stats"
+    },
+    "Skills": {
+        "Title": "My skills",
+        "SoftTitle": "Soft skills",
+        "TechnicalTitle": "Technical skills",
+        "FrontendTitle": "Frontend",
+        "BackendTitle": "Backend",
+        "DatabaseTitle": "Databases",
+        "GeneralTitle": "General",
+        "FullstackTitle": "Fullstack",
+        "Skillset": {
+            "soft": {
+                "0": 
+                    {
+                        "name": "Effective communication",
+                        "description": "To communicate in an effective way is a must when developing with other people or in a big teams"
+                    },
+                "1": 
+                {
+                    "name": "Teamwork",
+                    "description": "Always will prefer to work as a team than alone. For sure I can but two brains always will be better than one"
+                },
+                "2": 
+                {
+                    "name": "Problem solving",
+                    "description": "Love challenge and I try to understand the foundation of the problem before even beginning to think how to solve it"
+                },
+                "3": 
+                {
+                    "name": "Adaptability",
+                    "description": "Fast adaptability to new technologies and industry advances"
+                },
+                "4": 
+                {
+                    "name": "Continuous and stand-alone learning",
+                    "description": "As self-taught developer, I had learned to obtain knowledge by myself"
+                },
+                "5": 
+                {
+                    "name": "Critical thinking",
+                    "description": "Sometimes have to make decisions that will impact drastically on the project"
+                }
+            },
+            "technical": {
+                "0": 
+                 
+                {
+                    "name": "Server side and API development",
+                    "description": "With native NodeJS and ExpressJS. Some of PHP as well"
+                },
+                "1": 
+                 
+                {
+                    "name": "Client side applications development",
+                    "description": "With React as star. Also vanilla JavaScript, TypeScript and jQuery"
+                },
+                "2": 
+                 
+                {
+                    "name": "Relational and non-relational databases",
+                    "description": "MySQL and MongoDB as the masters, but know how to work with another ones"
+                },
+                "3": 
+                 
+                {
+                    "name": "Version control",
+                    "description": "Git and GitHub. Working with repositories and branches"
+                },
+                "4": 
+                 
+                {
+                    "name": "Monolytic and SPA applications development",
+                    "description": "Monolytic server and client applications and SPAs with React"
+                },
+                "5": 
+                 
+                {
+                    "name": "Algorithms and Complexity Analysis",
+                    "description": "Big O Notation and some famous algorithms"
+                }
+            }
+        }
+    },
+    "Projects": {
+        "Title": "My projects",
+        "ByTypeLabel": "By type: ",
+        "ByTagLabel": "By tag: ",
+        "AllTitle": "All",
+        "NoItemsFound": "No projects found with this criteria",
+        "GenericAlt": "Project picture",
+        "ProblemTitle": "The problem",
+        "SolutionTitle": "The solution",
+        "ViewPictures": "View pictures",
+        "ViewCode": "View code",
+        "NextButton": "Next",
+        "TagsTitle": "Tags",
+        "TecnosTitle": "Technologies",
+        "ProjectList": {
+            "0": {
+                "title": "Business Data Manager",
+                "problem": "A medium to big company has to handle all the data of employees, their schedules, holidays and extra time recordings. In the future they will need to scale the platform to handle other kind of data and processes.",
+                "solution": "A web platform made as SPA with React in the frontend and Express and MongoDB in the backend for the API creation and encapsulation. The app will be modular for satisfying the needings of future scale needings and totally responsive. Also will include a section of graphics for data visualization.",
+                "codes": {
+                    "0": {
+                        "explanation": "A mongoose database model for employee handleling.",
+                        "name": "Employee model for MongoDB"
+                    },
+                    "1": {
+                        "explanation": "Login route of the platform. Snippet includes the controller and the route files. Some extra functions was hidden for security reasons.",
+                        "name": "Login route and Login controller"
+                    },
+                    "2": {
+                        "explanation": "The database instance connection with an asset that retries connections for 5 times in case of an error.",
+                        "name": "Database connection with retry asset"
+                    },
+                    "3": {
+                        "explanation": "React component for handleling the employees holidays status per year.",
+                        "name": "Holidays handler component"
+                    }
+                }
+            },
+            "1": {
+                "title": "Galaxy generation procedural process",
+                "problem": "In order to create the map of a game, we're asked to write a procedural process that generates a galaxy with all the data of his entities given a list of constraints for each type of instance.",
+                "solution": "Created dictionaries with all the constraints for each item, then instanced the classes and accomodate the methods and properties to match with the dictionaries. Once I had all setted up, started implementing the functions for the procedural processes and storing they while creating into a database.",
+                "codes": {
+                    "0": {
+                        "explanation": "The Star class definition. This class will encapsulate all the instances of the created stars.",
+                        "name": "Star class definition"
+                    },
+                    "1": {
+                        "explanation": "This is the route that handles the galaxy creation on the server side. As can see, at the end just need the name of the galaxy and the number of star systems that wants to be created.",
+                        "name": "Galaxy store API route"
+                    },
+                    "2": {
+                        "explanation": "The galaxy scene on the client side with ThreeJS for 3D inmersion.",
+                        "name": "Galaxy scene component"
+                    }
+                }
+            },
+            "2": {
+                "title": "Web portfolio v1.0",
+                "problem": "Being a self-taught developer means that have to show what I've learn more than people with official studies.",
+                "solution": "Split ways with usual portfolio projects and started two big ideas, when I've reached some key points that, to my point of view, demonstrates that I can work as a developer profesionally, created a web portfolio where can show what I did.",
+                "codes": {
+                    "0": {
+                        "explanation": "About section component made in React and NextJS. The component iterates over the hobbies dictionary and show dynamic card with each one via another components and his props.",
+                        "name": "About section main component"
+                    },
+                    "1": {
+                        "explanation": "Navbar component that handles the flag and language changes and the rendered component on the page.",
+                        "name": "Navbar component"
+                    },
+                    "2": {
+                        "explanation": "Contains StackList and SingleTech components, that shows the list of technologies of the stack or the technology description when the button is clicked.",
+                        "name": "Stacks components"
+                    }
+                }
+            }
+        },
+        "States": {
+            "finished": "Finished",
+            "inProgress": "In progress",
+            "design": "Designing"
+        },
+        "ProjectTags": {
+            "procedurals": "Procedurals",
+            "recursivity": "Recursivity",
+            "SPA": "SPA",
+            "algorithms": "Algorithms",
+            "security": "Security",
+            "API": "API",
+            "state handleling": "State handleling",
+            "design": "Design",
+            "3D": "3D",
+            "dependencies": "Dependencies",
+            "testing": "Testing",
+            "database": "Database",
+            "CRUD": "CRUD",
+            "CORS": "CORS",
+            "business": "Business"
+        }
+    },
+    "Contact": {
+        "Title": "Contact me",
+        "Direction": "Barcelona, Spain",
+        "Email": "Email",
+        "Linkedin": "LinkedIn",
+        "Github": "GitHub",
+        "DirectionTitle": "Based on",
+        "RepositoryTitle": "Repository"
+    }
+}
