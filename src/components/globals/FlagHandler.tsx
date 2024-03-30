@@ -8,16 +8,13 @@ import i18n from "@/i18n/index";
 export default function FlagHandler() {
   const { t } = useTranslation();
 
-  const [currentLanguage, setCurrentLanguage] = useState(
-    localStorage.getItem("lang")
-  );
+  const [currentLanguage, setCurrentLanguage] = useState("spa");
   const [flag, setFlag] = useState(currentLanguage);
   const handleFlagClick = (e: any) => {
     e.preventDefault();
     const newLanguage = currentLanguage === "eng" ? "spa" : "eng";
     i18n.changeLanguage(newLanguage);
     setCurrentLanguage(newLanguage);
-    localStorage.setItem("lang", newLanguage);
     setFlag(newLanguage);
   };
   return (

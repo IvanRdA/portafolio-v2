@@ -15,7 +15,7 @@ const resources = {
 
 i18n.use(initReactI18next).init({
   resources,
-  lng: localStorage.getItem("lang") || "spa",
+  lng: "spa",
   debug: true,
   fallbackLng: "spa",
   interpolation: {
