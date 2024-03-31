@@ -11,10 +11,10 @@ export default function MainPresentation() {
         <h1 className="font-bold text-5xl">Iván Rodríguez</h1>
         <h2 className="text-2xl">{t("Main.Job")}</h2>
         <a
-          href="/resume.png"
+          href="/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          download="resume.png"
+          download="resume.pdf"
         >
           <Image
             src="/picture.jpg"
