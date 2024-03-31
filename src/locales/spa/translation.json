@@ -2,15 +2,15 @@
     "Navbar": {
         "FlagTitle": {
             "spa": "Cambiar a Inglés",
-            "eng": "Switch to Spanish"
+            "eng": "Cambiar a Español"
         }
     },
     "Main": {
         "Job": "DESARROLLADOR FULLSTACK",
         "Picture": "Descargar CV",
-        "p1": "Soy un programador autodidacta con +5 años de experiencia como gerente de tienda al que le encanta la resolución de problemas.",
-        "p2": "Trabajando como gerente he aprendido a trabajar con datos y la importancia que tiene para los negocios poder tener control sobre estos datos.",
-        "p3": "Combinando eso con mi pasion por las nuevas tecnologías, la programación y resolución de problemas y mi bagaje, en 2020 elegí empezar a estudiar sobre el entorno de JavaScript por mi cuenta.",
+        "p1": "Soy un programador autodidacta con más de 5 años de experiencia como gerente de tienda al que le encanta la resolución de problemas.",
+        "p2": "Trabajando como gerente, he aprendido a manejar datos y la importancia que tiene para los negocios poder tener control sobre estos datos.",
+        "p3": "Combinando eso con mi pasión por las nuevas tecnologías, la programación, y resolución de problemas y mi bagaje, en 2020 elegí empezar a estudiar sobre el entorno de JavaScript por mi cuenta.",
         "p4": "Actualmente me encuentro buscando mi primer empleo como desarrollador fullstack en el sector.",
         "Prev": "Anterior",
         "Next": "Siguiente",
@@ -20,18 +20,18 @@
         "Database": "Base de datos",
         "Frontend": "Cliente",
         "Backend": "Servidor",
-        "VCS": "Sístema de control de versiones",
+        "VCS": "Sistema de control de versiones",
         "All": "General",
         "M": "MongoDB es un entorno de base de datos que permite trabajar con modelos no relacionales, escritos en formato JSON para trabajar con la información. En concreto, yo trabajo con mongoose en entornos de ExpressJS o NodeJS para conectar con la base de datos principal, esté donde esté.",
-        "E": "ExpressJS es un framework de NodeJS que facilita muchísimo crear un servidor desde 0. Tiene una forma genial de trabajar con las rutas y los endpoints de APIs y es lo suficientemente rápido para considerarlo siempre.",
-        "R": "React es una librería frontend de JavaScript creada por Facebook. Permite trabajar con aplicaciones de página única (SPA por sus siglas en inglés) gracias a HTML vitaminado basado en creación de componentes conocido como formato JSX. Tiene una comunidad inmensa que da soporte contínuo a la librería y fué mi elección contra otros frameworks como Angular, Svelte o Vue.",
-        "N": "NodeJS fué creado para trabajar con JavaScript en el lado del servidor, permitiendo crear lógica y operaciones como ruteos, servir, escribir y leer archivos y cualquier clases de proceso del lado servidor. Es los cimientos de todas las tecnologías que trabajan con JS en el lado servidor, el 100% de éstas tienen Node en su núcleo de bajo nivel.",
-        "TS": "TypeScript es un superset para JavaScript desarrollado por Microsoft que permite trabajar con tipado estático para luego inferir esos tipos y restringir el flujo de datos de la aplicación que estés desarollando. Extremadamente útil para proyectos grandes o que involucren a equipos de desarrollo.",
+        "E": "ExpressJS es un framework de NodeJS que facilita muchísimo crear un servidor desde cero. Tiene una forma genial de trabajar con las rutas y los endpoints de APIs y es lo suficientemente rápido para considerarlo siempre.",
+        "R": "React es una librería frontend de JavaScript creada por Facebook. Permite trabajar con aplicaciones de página única (SPA por sus siglas en inglés) gracias a HTML vitaminado basado en creación de componentes conocido como formato JSX. Tiene una comunidad inmensa que da soporte contínuo a la librería y fue mi elección contra otros frameworks como Angular, Svelte o Vue.",
+        "N": "NodeJS fue creado para trabajar con JavaScript en el lado del servidor, permitiendo crear lógica y operaciones como ruteos, servir, escribir y leer archivos y cualquier clase de proceso del lado servidor. Es los cimientos de todas las tecnologías que trabajan con JS en el lado servidor, el 100% de éstas tienen Node en su núcleo de bajo nivel.",
+        "TS": "TypeScript es un superset para JavaScript desarrollado por Microsoft que permite trabajar con tipado estático para luego inferir esos tipos y restringir el flujo de datos de la aplicación que estés desarrollando. Extremadamente útil para proyectos grandes o que involucren a equipos de desarrollo.",
         "NJS": "NextJS es un framework para React que implementa tonalidad de funciones integradas como ruteo, componentes de imagen y, quizás lo más importante, renderizado de componentes del lado servidor por defecto. También facilita muchísimo integrar Tailwind y TypeScript en sus proyectos.",
-        "TWD": "TailwindCSS es un framework para CSS, al igual que Bootstrap implementa nombres de clases con reglas CSS ya predefinidas y permite extender o editar esas clases. Quizás un poco más pesado que Bootstrap en cuanto a clases, pero prefiero su método de trabajo y fué la elección que tomé.",
+        "TWD": "TailwindCSS es un framework para CSS, al igual que Bootstrap implementa nombres de clases con reglas CSS ya predefinidas y permite extender o editar esas clases. Quizás un poco más pesado que Bootstrap en cuanto a clases, pero prefiero su método de trabajo y fue la elección que tomé.",
         "SQL": "MySQL es un motor de bases de datos relacionales que permite con Lenguaje de Consultas Estructurado (SQL por sus siglas en inglés) con tablas, uniones, consultas y todas las operaciones de las bases de datos relacionales.",
-        "GIT": "Git es un Sístema de Control de Versiones (VCS por sus siglas en inglés), esto significa que puedes hacer 'push' de tu trabajo a la rama actual o a una nueva cada vez que consideres o consigas algún avance en el desarrollo. De esta forma puedes volver a versiones de tu código que funcionaban y empezar desde ahí. Integrado con GitHub esta herramienta facilita enormemente la vida.",
-        "DTST": "Las estructuras de datos son el pilar base de la programación. Saber con qué estructura de datos trabajar según los datos que estás recibiendo definirá el éxito o fracaso del proyecto. Cada estructura de datos nos proporciona varias operaciones, y cada operación consume cierta cantidad de tiempo, así que puedes imaginar lo rápido que escala, no?",
+        "GIT": "Git es un Sistema de Control de Versiones (VCS por sus siglas en inglés), esto significa que puedes hacer 'push' de tu trabajo a la rama actual o a una nueva cada vez que consideres o consigas algún avance en el desarrollo. De esta forma puedes volver a versiones de tu código que funcionaban y empezar desde ahí. Integrado con GitHub esta herramienta facilita enormemente la vida.",
+        "DTST": "Las estructuras de datos son el pilar base de la programación. Saber con qué estructura de datos trabajar según los datos que estás recibiendo definirá el éxito o fracaso del proyecto. Cada estructura de datos nos proporciona varias operaciones, y cada operación consume cierta cantidad de tiempo, así que puedes imaginar lo rápido que escala, ¿no?",
         "ALG": "Me gusta decir que los algoritmos son funciones que resuelven un problema general de una manera específica. Los algoritmos resuelven un rango de problemas que arraiguen en el mismo tipo, así se pueden aplicar en otros entornos y resultarán en la misma escala consumo de tiempo y espacio.",
         "STY": "La Seguridad digital se ha convertido en algo indispensable cuando se trabaja con proyectos de entorno real. Validación de campos en ambos lados del proceso, encapsulación, procesos de autorización y autenticación en cada petición, políticas CORS en servidores y un largo etcétera.",
         "Snippets": {
@@ -42,10 +42,10 @@
             "complexity": "Complejidad",
             "platform": "Plataforma",
             "types": "Tipo",
-            "small": "El editor de código está en modo ReadOnly por finalidad de mostrar el código.",
+            "small": "El editor de código está en modo de solo lectura con el propósito de mostrar el código.",
             "0": {
                 "title": "Buscar un rango",
-                "description": "Dada una lista de enteros y un entero objetivo, retorna una lista que represente el rango de índices en la lista con valor igual a objetivo.",
+                "description": "Dada una lista de enteros y un entero objetivo, retorna una lista que represente el rango de índices en la lista con valor igual al objetivo.",
                 "type": "Algoritmos",
                 "solution": "Recorrer la lista de izquierda a derecha y viceversa en el mismo bucle, crear una variable con valor [-1, -1] para retornar en caso de que no exista el número objetivo en la lista. En cada iteración verificamos si el la variable de rango en los índices i y j son -1, si lo son verificamos si son iguales al objetivo. Cuando ningún índice de la variable range es -1 retornamos la solución."
             },
@@ -59,13 +59,13 @@
                 "title": "Suma de dos números",
                 "description": "Dada una lista ordenada de enteros y un número objetivo, escribe una función que retorne una lista con los dos valores que sumen el objetivo o una lista vacía si no existe ninguna combinación.",
                 "type": "Algoritmos",
-                "solution": "Como la lista está ordenada podemos crear un pointer al inicio y otro al final de la lista, sumamos los pointers, si son iguales al objetivo devolvemos los valores, si la suma es mayor al objetivo movemos el pointer del final un paso a la izquiera, si es menor el pointer inicial uno a la derecha."
+                "solution": "Como la lista está ordenada podemos crear un puntero al inicio y otro al final de la lista, sumamos los punteros, si son iguales al objetivo devolvemos los valores, si la suma es mayor al objetivo movemos el puntero del final un paso a la izquierda, si es menor el puntero inicial uno a la derecha."
             },
             "3": {
                 "title": "Comprobador de palíndromos",
                 "description": "Dada una cadena de texto retorna true si es palíndromo y false si no.",
                 "type": "Algoritmos",
-                "solution": "Crea un pointer al inicio y al final de la cadena de texto mediante el método char at, si los valores son diferentes retorna false, si los pointers coinciden en valor retorna true."
+                "solution": "Crea un puntero al inicio y al final de la cadena de texto mediante el método char at, si los valores son diferentes retorna false, si los punteros coinciden en valor retorna true."
             },
             "4": {
                 "title": "Primer valor duplicado",
@@ -77,7 +77,7 @@
                 "title": "Creación de estrellas procedural",
                 "description": "Dadas ciertas clases y restricciones, crea un algoritmo que devuelva una lista de estrellas perteneciente a ese sistema solar.",
                 "type": "Algoritmos",
-                "solution": "Lanza un dado para determinar el número máximo de ese sístema, luego filtra la lista por tipo de estrella y restríngela para que cumpla las restricciones. Si pasa el test ordena la lista por número máximo y córtala donde el sístema necesite. Devuelve la lista ordenada por masa y con la propiedad main definida."
+                "solution": "Lanza un dado para determinar el número máximo de ese sistema, luego filtra la lista por tipo de estrella y restríngela para que cumpla las restricciones. Si pasa el test ordena la lista por número máximo y córtala donde el sistema necesite. Devuelve la lista ordenada por masa y con la propiedad main definida."
             }
         }
     },
@@ -85,11 +85,11 @@
         "Message": "Volver"
     },
     "About": {
-        "Title": "Más sobre mi",
+        "Title": "Más sobre mí",
         "DescriptionTitle": "Conóceme",
         "Description": {
-            "p1": "Tranquilo y curioso a partes iguales. Me encanta aprender constantemente y estar retándome y superándome a mi mismo y en la programación encontré ese espíritu de mejora contínua desde el primer día.",
-            "p2": "Amo el análisis y reconocimiento de patrones y por suerte pude desarrollarlo bastante durante mis años como gerente, consiguiendo experiencia, sobretodo en criterios de análisis de datos y cómo trabajar con ellos.",
+            "p1": "Tranquilo y curioso a partes iguales. Me encanta aprender constantemente y estar retándome y superándome a mí mismo y en la programación encontré ese espíritu de mejora contínua desde el primer día.",
+            "p2": "Amo el análisis y reconocimiento de patrones y por suerte pude desarrollarlo bastante durante mis años como gerente, consiguiendo experiencia, sobre todo en criterios de análisis de datos y cómo trabajar con ellos.",
             "p3": "En mis ratos libres suelo jugar al ajedrez, resolver algún problema de estructuras de datos de AlgoExpert, hacer algo de ejercicio o consumir cine y series."
         },
         "HobbiesTitle": "Aficiones",
@@ -152,8 +152,8 @@
                 "1": 
                  
                 {
-                    "name": "Desarrollo de aplicaiones cliente",
-                    "description": "Con React como estrella. También con vanila JavaScript, TypeScript y jQuery"
+                    "name": "Desarrollo de aplicaciones cliente",
+                    "description": "Con React como estrella. También con JavaScript puro, TypeScript y jQuery"
                 },
                 "2": 
                  
@@ -230,7 +230,7 @@
                         "name": "Definición de clase Estrella"
                     },
                     "1": {
-                        "explanation": "Esta es la ruta que maneja la creación de la galaxia en si. Como puede verse, basta con indicar el nombre de la galaxia y el número de sistemas estelares que desea generar.",
+                        "explanation": "Esta es la ruta que maneja la creación de la galaxia en sí. Como puede verse, basta con indicar el nombre de la galaxia y el número de sistemas estelares que desea generar.",
                         "name": "Galaxy store API route"
                     },
                     "2": {
@@ -245,8 +245,8 @@
                 "solution": "Separarme del camino habitual en cuanto a proyectos de portafolio, empezando dos grandes ideas. Cuando he alcanzado varios puntos clave en los proyectos que, bajo mi punta de vista, demuestran que puedo trabajar de forma profesional como desarrollador, he creado un portafolio web.",
                 "codes": {
                     "0": {
-                        "explanation": "Componente de la sección sobre mi creado con React en NextJS. El componente itera sobre el diccionario de hobbies y enseña de forma dinámica cada uno vía otro componente y sus props.",
-                        "name": "Componente principal sección Sobre mi"
+                        "explanation": "Componente de la sección sobre mí creado con React en NextJS. El componente itera sobre el diccionario de hobbies y enseña de forma dinámica cada uno vía otro componente y sus props.",
+                        "name": "Componente principal sección Sobre mí"
                     },
                     "1": {
                         "explanation": "Componente de navegación que maneja el estado de la bandera y el lenguaje, así como el componente que renderiza la página.",
