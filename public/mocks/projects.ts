@@ -37,7 +37,7 @@ export const projectsDictionary: ProjectRecord = {
       "/projects/bdm/holidays.jpg",
       "/projects/bdm/employeeDetail.jpg",
     ],
-    repository: "",
+    repository: "https://github.com/IvanRdA/BusinessDataManager-showcase",
     url: "",
     type: "Fullstack",
     code: {
@@ -597,7 +597,7 @@ export const projectsDictionary: ProjectRecord = {
     solution: "Projects.ProjectList.1.solution",
     tags: [projectTags[0], projectTags[2], projectTags[6], projectTags[12], projectTags[11]],
     pics: ["/projects/ssins/simulation.jpg", "/projects/ssins/simulationTwo.jpg", "/projects/ssins/jsonView.jpg"],
-    repository: "",
+    repository: "https://github.com/IvanRdA/SevenSins-showcase",
     url: "",
     type: "Fullstack",
     code: {
