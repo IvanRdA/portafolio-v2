@@ -34,10 +34,12 @@ export default function SkillsMainSection() {
 
   return (
     <article className="flex flex-col justify-start mt-4 items-center h-[100%] w-[100%]">
-      <div className="flex flex-row justify-center items-center w-[100%] mt-4">
+      <div className="flex flex-col md:flex-row justify-center items-center w-[100%] mt-4">
         <div className="flex flex-col w-[50%] h-[100%] justify-center items-center">
           <strong>
-            <h3 className="font-bold text-xl">{t("Skills.SoftTitle")}</h3>
+            <h3 className="font-bold text-xl text-center mt-2">
+              {t("Skills.SoftTitle")}
+            </h3>
           </strong>
           {Object.keys(SKILLS_DICTIONARY.soft).map((dictKey, index) => {
             const skillState = SkillDescr[0][parseInt(dictKey)].state;
@@ -64,7 +66,9 @@ export default function SkillsMainSection() {
 
         <div className="flex flex-col w-[50%] h-[100%] justify-center items-center">
           <strong>
-            <h3 className="font-bold text-xl">{t("Skills.TechnicalTitle")}</h3>
+            <h3 className="font-bold text-xl text-center mt-2">
+              {t("Skills.TechnicalTitle")}
+            </h3>
           </strong>
 
           {Object.keys(SKILLS_DICTIONARY.technical).map((dictKey, index) => {

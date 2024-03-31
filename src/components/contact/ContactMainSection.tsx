@@ -6,8 +6,8 @@ import Image from "next/image";
 export default function ContactMainSection() {
   const { t } = useTranslation();
   return (
-    <div className="p-2 m-1 h-[100%] w-[100%] flex flex-col justify-center items-center">
-      <h2 className="font-interBold text-2xl text-center mt-8">
+    <div className="p-2 m-1 h-[100%] w-[100%] flex flex-col justify-center items-center mt-4 md:mt-8">
+      <h2 className="font-interBold text-2xl text-center">
         {t("Contact.Title")}
       </h2>
       <article className="h-[100%] w-[100%] md:w-[50%] flex flex-col justify-center items-center md:items-start text-lg">

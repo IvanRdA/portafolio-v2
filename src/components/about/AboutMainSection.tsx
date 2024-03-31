@@ -8,7 +8,7 @@ export default function AboutMainSection() {
   const { t } = useTranslation();
   return (
     <div className="p-2 m-1 h-[100%] w-[100%]">
-      <h2 className="font-bold text-2xl text-center mt-8">
+      <h2 className="font-bold text-2xl text-center mt-4 md:mt-8">
         {t("About.Title")}
       </h2>
       <article className="w-[100%] mt-4 flex flex-col justify-center items-start">

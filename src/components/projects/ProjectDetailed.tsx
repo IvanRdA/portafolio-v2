@@ -123,7 +123,7 @@ export default function ProjectDetailed(props: {
         </div>
         <div className="flex flex-col w-[100%] h-[100%] justify-center items-center">
           {project.repository !== "" && (
-            <p>
+            <p className="text-center">
               {t("Contact.RepositoryTitle")}:{" "}
               <a href={project.repository} target="_blank">
                 {project.repository}

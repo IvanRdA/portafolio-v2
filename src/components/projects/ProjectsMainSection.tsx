@@ -134,12 +134,12 @@ export default function ProjectsMainSection(props: any) {
           {t("Projects.NoItemsFound")}
         </h3>
       ) : (
-        <div className="grid grid-flow-row grid-col-1 gap-2 justify-start justify-items-start place-items-center h-[90%] w-[100%] mt-4 text-justify">
+        <div className="grid grid-flow-row grid-col-1 gap-2 auto-cols-fr justify-start items-center h-[90%] w-[100%] mt-4 text-justify">
           {currentProjects.map((project, idx) => {
             return (
               <div
                 key={idx}
-                className="flex flex-col justify-start items-start w-[100%] h-[100%] p-2"
+                className="flex flex-col justify-start items-start w-[90%] md:w-[100%] h-[100%] p-2"
               >
                 <button
                   onClick={(e) => handler(idx)}
@@ -186,7 +186,11 @@ export default function ProjectsMainSection(props: any) {
                 {project.repository !== "" && (
                   <p>
                     {t("Contact.RepositoryTitle")}:{" "}
-                    <a href={project.repository} target="_blank">
+                    <a
+                      href={project.repository}
+                      target="_blank"
+                      className="md:text-base text-xs"
+                    >
                       {project.repository}
                     </a>
                   </p>
