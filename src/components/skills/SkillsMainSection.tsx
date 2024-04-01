@@ -35,7 +35,7 @@ export default function SkillsMainSection() {
   return (
     <article className="flex flex-col justify-start mt-4 items-center h-[100%] w-[100%]">
       <div className="flex flex-col md:flex-row justify-center items-center w-[100%] mt-4">
-        <div className="flex flex-col w-[50%] h-[100%] justify-center items-center">
+        <div className="flex flex-col w-[50%] h-[100%] justify-center items-center divide-y divide-white md:divide-y-0">
           <strong>
             <h3 className="font-bold text-xl text-center mt-2">
               {t("Skills.SoftTitle")}
@@ -64,9 +64,9 @@ export default function SkillsMainSection() {
           })}
         </div>
 
-        <div className="flex flex-col w-[50%] h-[100%] justify-center items-center">
+        <div className="flex flex-col w-[50%] h-[100%] justify-center items-center divide-y divide-white md:divide-y-0">
           <strong>
-            <h3 className="font-bold text-xl text-center mt-2">
+            <h3 className="font-bold text-xl text-center mt-4 md:mt-2">
               {t("Skills.TechnicalTitle")}
             </h3>
           </strong>

@@ -196,6 +196,8 @@
         "NextButton": "Next",
         "TagsTitle": "Tags",
         "TecnosTitle": "Technologies",
+        "URLLink": "Go to project",
+        "RepositoryLink": "View repo",
         "ProjectList": {
             "0": {
                 "title": "Business logic handler",

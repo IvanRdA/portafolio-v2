@@ -126,7 +126,7 @@ export default function ProjectDetailed(props: {
             <p className="text-center">
               {t("Contact.RepositoryTitle")}:{" "}
               <a href={project.repository} target="_blank">
-                {project.repository}
+                {t("Projects.RepositoryLink")}
               </a>
             </p>
           )}
@@ -135,7 +135,7 @@ export default function ProjectDetailed(props: {
             <p>
               URL:{" "}
               <a href={project.url} target="_blank">
-                {project.url}
+                {t("Projects.URLLink")}
               </a>
             </p>
           )}

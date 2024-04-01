@@ -47,7 +47,7 @@
                 "title": "Buscar un rango",
                 "description": "Dada una lista de enteros y un entero objetivo, retorna una lista que represente el rango de índices en la lista con valor igual al objetivo.",
                 "type": "Algoritmos",
-                "solution": "Recorrer la lista de izquierda a derecha y viceversa en el mismo bucle, crear una variable con valor [-1, -1] para retornar en caso de que no exista el número objetivo en la lista. En cada iteración verificamos si el la variable de rango en los índices i y j son -1, si lo son verificamos si son iguales al objetivo. Cuando ningún índice de la variable range es -1 retornamos la solución."
+                "solution": "Recorrer la lista de izquierda a derecha y viceversa en el mismo bucle, crear una variable con valor [-1, -1] para retornar en caso de que no exista el número objetivo en la lista. En cada iteración verificamos si la variable de rango en los índices i y j son -1, si lo son verificamos si son iguales al objetivo. Cuando ningún índice de la variable range es -1 retornamos la solución."
             },
             "1": {
                 "title": "Asignación de tareas",
@@ -196,6 +196,8 @@
         "NextButton": "Siguiente",
         "TagsTitle": "Etiquetas",
         "TecnosTitle": "Tecnologías",
+        "URLLink": "Ir al proyecto",
+        "RepositoryLink": "Ver repo",
         "ProjectList": {
             "0": {
                 "title": "Manejador de lógica de negocio",

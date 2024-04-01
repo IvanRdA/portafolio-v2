@@ -186,12 +186,8 @@ export default function ProjectsMainSection(props: any) {
                 {project.repository !== "" && (
                   <p>
                     {t("Contact.RepositoryTitle")}:{" "}
-                    <a
-                      href={project.repository}
-                      target="_blank"
-                      className="md:text-base text-xs"
-                    >
-                      {project.repository}
+                    <a href={project.repository} target="_blank">
+                      {t("Projects.RepositoryLink")}
                     </a>
                   </p>
                 )}
@@ -199,7 +195,7 @@ export default function ProjectsMainSection(props: any) {
                   <p>
                     URL:{" "}
                     <a href={project.url} target="_blank">
-                      {project.url}
+                      {t("Projects.URLLink")}
                     </a>
                   </p>
                 )}
