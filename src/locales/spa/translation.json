@@ -78,6 +78,13 @@
                 "description": "Dadas ciertas clases y restricciones, crea un algoritmo que devuelva una lista de estrellas perteneciente a ese sistema solar.",
                 "type": "Algoritmos",
                 "solution": "Lanza un dado para determinar el número máximo de ese sistema, luego filtra la lista por tipo de estrella y restríngela para que cumpla las restricciones. Si pasa el test ordena la lista por número máximo y córtala donde el sistema necesite. Devuelve la lista ordenada por masa y con la propiedad main definida."
+            },
+            
+            "6": {
+                "title": "Algoritmo de paginación",
+                "description": "Función para paginar la información recibida por el servidor para una mejora de la UX.",
+                "type": "Proyectos",
+                "solution": "Corta la lista original en base a los limitadores de página y límite de objetos por página. Con matemática básica se logra conseguir la porción de la lista original en base a dichos criterios."
             }
         }
     },
