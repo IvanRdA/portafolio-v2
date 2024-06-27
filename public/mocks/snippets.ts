@@ -1,14 +1,14 @@
 import { SnippetRecord } from "../../types";
 
 export const SNIPPETS_DICTIONARY: SnippetRecord = {
-    0: {
-      title: "Main.Snippets.0.title",
-      platform: "AlgoExpert",
-      type: "Main.Snippets.0.type",
-      description: "Main.Snippets.0.description",
-      solution: "Main.Snippets.0.solution",
-      complexityAnalysis: "O(n) time, O(1) space => n = array.length",
-      code: `
+  0: {
+    title: "Main.Snippets.0.title",
+    platform: "AlgoExpert",
+    type: "Main.Snippets.0.type",
+    description: "Main.Snippets.0.description",
+    solution: "Main.Snippets.0.solution",
+    complexityAnalysis: "O(n) time, O(1) space => n = array.length",
+    code: `
         function searchForRange(array, target) {
           let range = [-1, -1]
           let i = 0
@@ -31,15 +31,15 @@ export const SNIPPETS_DICTIONARY: SnippetRecord = {
         }
   
       `,
-    },
-    1: {
-      title: "Main.Snippets.1.title",
-      platform: "AlgoExpert",
-      type: "Main.Snippets.1.type",
-      description: "Main.Snippets.1.description",
-      solution: "Main.Snippets.1.solution",
-      complexityAnalysis: "O(nlog(n)) time, O(n) space => n = tasks.length",
-      code: `
+  },
+  1: {
+    title: "Main.Snippets.1.title",
+    platform: "AlgoExpert",
+    type: "Main.Snippets.1.type",
+    description: "Main.Snippets.1.description",
+    solution: "Main.Snippets.1.solution",
+    complexityAnalysis: "O(nlog(n)) time, O(n) space => n = tasks.length",
+    code: `
         function tasksAssignment(k, tasks) {
           const indexedTasks = tasks.map((value, index) => ({ value, index }))
           indexedTasks.sort((a, b) => a.value - b.value)
@@ -54,15 +54,15 @@ export const SNIPPETS_DICTIONARY: SnippetRecord = {
         }
   
       `,
-    },
-    2: {
-      title: "Main.Snippets.2.title",
-      platform: "AlgoExpert",
-      type: "Main.Snippets.2.type",
-      description: "Main.Snippets.2.description",
-      solution: "Main.Snippets.2.solution",
-      complexityAnalysis: "O(n) time, O(1) space => n = array.length",
-      code: `
+  },
+  2: {
+    title: "Main.Snippets.2.title",
+    platform: "AlgoExpert",
+    type: "Main.Snippets.2.type",
+    description: "Main.Snippets.2.description",
+    solution: "Main.Snippets.2.solution",
+    complexityAnalysis: "O(n) time, O(1) space => n = array.length",
+    code: `
         function twoNumberSum(array, target) {
           const start = 0
           const end = array. length - 1
@@ -80,15 +80,15 @@ export const SNIPPETS_DICTIONARY: SnippetRecord = {
         }
   
       `,
-    },
-    3: {
-      title: "Main.Snippets.3.title",
-      platform: "AlgoExpert",
-      type: "Main.Snippets.3.type",
-      description: "Main.Snippets.3.description",
-      solution: "Main.Snippets.3.solution",
-      complexityAnalysis: "O(n) time, O(1) space => n = string.length",
-      code: `
+  },
+  3: {
+    title: "Main.Snippets.3.title",
+    platform: "AlgoExpert",
+    type: "Main.Snippets.3.type",
+    description: "Main.Snippets.3.description",
+    solution: "Main.Snippets.3.solution",
+    complexityAnalysis: "O(n) time, O(1) space => n = string.length",
+    code: `
         function palindromeChecker(string) {
           const start = 0
           const end = array.length - 1
@@ -103,15 +103,15 @@ export const SNIPPETS_DICTIONARY: SnippetRecord = {
         }
   
       `,
-    },
-    4: {
-      title: "Main.Snippets.4.title",
-      platform: "AlgoExpert",
-      type: "Main.Snippets.4.type",
-      description: "Main.Snippets.4.description",
-      solution: "Main.Snippets.4.solution",
-      complexityAnalysis: "O(n) time, O(n) space => n = array.length",
-      code: `
+  },
+  4: {
+    title: "Main.Snippets.4.title",
+    platform: "AlgoExpert",
+    type: "Main.Snippets.4.type",
+    description: "Main.Snippets.4.description",
+    solution: "Main.Snippets.4.solution",
+    complexityAnalysis: "O(n) time, O(n) space => n = array.length",
+    code: `
         function firstDuplicateValue(array) {
           const checkerDictionary = {}
 
@@ -126,15 +126,15 @@ export const SNIPPETS_DICTIONARY: SnippetRecord = {
           return undefined
         }
       `,
-    },
-    5: {
-      title: "Main.Snippets.5.title",
-      platform: "Project",
-      type: "Main.Snippets.5.type",
-      description: "Main.Snippets.5.description",
-      solution: "Main.Snippets.5.solution",
-      complexityAnalysis: "O(n) time, O(n) space => n = stars",
-      code: `
+  },
+  5: {
+    title: "Main.Snippets.5.title",
+    platform: "Project",
+    type: "Main.Snippets.5.type",
+    description: "Main.Snippets.5.description",
+    solution: "Main.Snippets.5.solution",
+    complexityAnalysis: "O(n) time, O(n) space => n = stars",
+    code: `
       export async function starProceduralProcess(
         systemSKU: string
       ): Promise<Star[]> {
@@ -269,5 +269,34 @@ export const SNIPPETS_DICTIONARY: SnippetRecord = {
         return sortedByMax
       }
       `,
-    },
-  };
+  },
+  6: {
+    title: "Main.Snippets.6.title",
+    platform: "Project",
+    type: "Main.Snippets.6.type",
+    description: "Main.Snippets.6.description",
+    solution: "Main.Snippets.6.solution",
+    complexityAnalysis: " / ",
+    code: `
+        export function paginateResponse(
+        page: number,
+        limit: number,
+        items: any[]
+      ): Record<string, any> {
+        const startIdx = (page - 1) * limit;
+        const endIdx = startIdx + limit;
+
+        const paginated = items.slice(startIdx, endIdx);
+
+        return {
+          totalItems: paginated.length,
+          currentPage: page,
+          itemsPerPage: limit,
+          firstItem: startIdx + 1,
+          lastItem: startIdx + limit,
+          items: paginated,
+        };
+      }
+      `,
+  },
+};

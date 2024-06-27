@@ -78,6 +78,12 @@
                 "description": "Given certain classes and constraints, create an algorithm that returns a list of stars belonging to that solar system.",
                 "type": "Algorithms",
                 "solution": "Roll a die to determine the maximum number of that system, then filter the list by star type and restrict it to meet the constraints. If it passes the test, sort the list by maximum number and cut it where the system needs it. Return the list ordered by mass and with the main property defined."
+            },
+            "6": {
+                "title": "Paginate algorithm",
+                "description": "Function that paginates the data received from the server and slice it to pages.",
+                "type": "Projects",
+                "solution": "Slice the original array given a page number and a limit of items per page. Doing basic maths can accomplish a result that just returns a portion of the original array based on that constraints."
             }
         }
     },

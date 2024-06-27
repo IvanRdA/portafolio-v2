@@ -1,5 +1,9 @@
 import { ProjectRecord } from "../../types";
-import { mainStackDictionary, OtherTechsDictionary, OtherNonMainTechsDictionary } from "./stacks";
+import {
+  mainStackDictionary,
+  OtherTechsDictionary,
+  OtherNonMainTechsDictionary,
+} from "./stacks";
 
 export const projectTags: string[] = [
   "procedurals", // 0
@@ -85,7 +89,7 @@ export const projectsDictionary: ProjectRecord = {
         
         export default EMPLOYEE`,
         explanation: "Projects.ProjectList.0.codes.0.explanation",
-        name: "Projects.ProjectList.0.codes.0.name"
+        name: "Projects.ProjectList.0.codes.0.name",
       },
       1: {
         code: `
@@ -163,7 +167,7 @@ export const projectsDictionary: ProjectRecord = {
           }
       })`,
         explanation: "Projects.ProjectList.0.codes.1.explanation",
-        name: "Projects.ProjectList.0.codes.1.name"
+        name: "Projects.ProjectList.0.codes.1.name",
       },
       2: {
         code: `
@@ -213,7 +217,7 @@ export const projectsDictionary: ProjectRecord = {
 
         export default dbConnection`,
         explanation: "Projects.ProjectList.0.codes.2.explanation",
-        name: "Projects.ProjectList.0.codes.2.name"
+        name: "Projects.ProjectList.0.codes.2.name",
       },
       3: {
         code: `
@@ -577,8 +581,8 @@ export const projectsDictionary: ProjectRecord = {
         }
 `,
         explanation: "Projects.ProjectList.0.codes.3.explanation",
-        name: "Projects.ProjectList.0.codes.3.name"
-      }
+        name: "Projects.ProjectList.0.codes.3.name",
+      },
     },
     state: "Projects.States.inProgress",
     tecnos: [
@@ -588,15 +592,25 @@ export const projectsDictionary: ProjectRecord = {
       mainStackDictionary["N"],
       OtherTechsDictionary["TS"],
       OtherTechsDictionary["NJS"],
-      OtherTechsDictionary["TWD"]
-    ]
+      OtherTechsDictionary["TWD"],
+    ],
   },
   1: {
     title: "Projects.ProjectList.1.title",
     problem: "Projects.ProjectList.1.problem",
     solution: "Projects.ProjectList.1.solution",
-    tags: [projectTags[0], projectTags[2], projectTags[6], projectTags[12], projectTags[11]],
-    pics: ["/projects/ssins/simulation.jpg", "/projects/ssins/simulationTwo.jpg", "/projects/ssins/jsonView.jpg"],
+    tags: [
+      projectTags[0],
+      projectTags[2],
+      projectTags[6],
+      projectTags[12],
+      projectTags[11],
+    ],
+    pics: [
+      "/projects/ssins/simulation.jpg",
+      "/projects/ssins/simulationTwo.jpg",
+      "/projects/ssins/jsonView.jpg",
+    ],
     repository: "https://github.com/IvanRdA/SevenSins-showcase",
     url: "",
     type: "Fullstack",
@@ -1081,7 +1095,7 @@ export const projectsDictionary: ProjectRecord = {
         }
         `,
         explanation: "Projects.ProjectList.1.codes.0.explanation",
-        name: "Projects.ProjectList.1.codes.0.name"
+        name: "Projects.ProjectList.1.codes.0.name",
       },
       1: {
         code: `
@@ -1105,7 +1119,7 @@ export const projectsDictionary: ProjectRecord = {
         )
         `,
         explanation: "Projects.ProjectList.1.codes.1.explanation",
-        name: "Projects.ProjectList.1.codes.1.name"
+        name: "Projects.ProjectList.1.codes.1.name",
       },
       2: {
         code: `
@@ -1160,8 +1174,8 @@ export const projectsDictionary: ProjectRecord = {
         export default GalaxyScene;
         `,
         explanation: "Projects.ProjectList.1.codes.2.explanation",
-        name: "Projects.ProjectList.1.codes.2.name"
-      }
+        name: "Projects.ProjectList.1.codes.2.name",
+      },
     },
     state: "Projects.States.inProgress",
     tecnos: [
@@ -1173,15 +1187,19 @@ export const projectsDictionary: ProjectRecord = {
       OtherTechsDictionary["NJS"],
       OtherTechsDictionary["TWD"],
       OtherNonMainTechsDictionary["TJS"],
-      OtherNonMainTechsDictionary["WSK"]
-    ]
+      OtherNonMainTechsDictionary["WSK"],
+    ],
   },
   2: {
     title: "Projects.ProjectList.2.title",
     problem: "Projects.ProjectList.2.problem",
     solution: "Projects.ProjectList.2.solution",
     tags: [projectTags[6]],
-    pics: ["/projects/cv/snippets.jpg", "/projects/cv/main.jpg", "/projects/cv/about.jpg"],
+    pics: [
+      "/projects/cv/snippets.jpg",
+      "/projects/cv/main.jpg",
+      "/projects/cv/about.jpg",
+    ],
     repository: "https://github.com/IvanRdA/portafolio-v1.0",
     url: "https://portafolio-v1-0-sigma.vercel.app",
     type: "Frontend",
@@ -1247,7 +1265,7 @@ export const projectsDictionary: ProjectRecord = {
 
         `,
         explanation: "Projects.ProjectList.2.codes.0.explanation",
-        name: "Projects.ProjectList.2.codes.0.name"
+        name: "Projects.ProjectList.2.codes.0.name",
       },
       1: {
         code: `
@@ -1338,7 +1356,7 @@ export const projectsDictionary: ProjectRecord = {
         }
         `,
         explanation: "Projects.ProjectList.2.codes.1.explanation",
-        name: "Projects.ProjectList.2.codes.1.name"
+        name: "Projects.ProjectList.2.codes.1.name",
       },
       2: {
         code: `
@@ -1435,14 +1453,14 @@ export const projectsDictionary: ProjectRecord = {
         }
         `,
         explanation: "Projects.ProjectList.2.codes.2.explanation",
-        name: "Projects.ProjectList.2.codes.2.name"
-      }
+        name: "Projects.ProjectList.2.codes.2.name",
+      },
     },
     state: "Projects.States.finished",
     tecnos: [
       mainStackDictionary["R"],
       OtherTechsDictionary["NJS"],
       OtherTechsDictionary["TWD"],
-    ]
+    ],
   },
 };
